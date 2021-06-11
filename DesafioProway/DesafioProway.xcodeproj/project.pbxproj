@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C27A6FBF26731385005FE2B9 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A6FBD26731385005FE2B9 /* ListViewController.swift */; };
+		C27A6FC026731385005FE2B9 /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C27A6FBE26731385005FE2B9 /* ListViewController.xib */; };
+		C27A6FC526731A58005FE2B9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A6FC326731A58005FE2B9 /* DetailViewController.swift */; };
+		C27A6FC626731A58005FE2B9 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C27A6FC426731A58005FE2B9 /* DetailViewController.xib */; };
 		C2ADED122669596100565895 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ADED112669596100565895 /* AppDelegate.swift */; };
 		C2ADED142669596100565895 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ADED132669596100565895 /* ViewController.swift */; };
 		C2ADED172669596100565895 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2ADED152669596100565895 /* Main.storyboard */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C27A6FBD26731385005FE2B9 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		C27A6FBE26731385005FE2B9 /* ListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		C27A6FC326731A58005FE2B9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C27A6FC426731A58005FE2B9 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		C2ADED0E2669596100565895 /* DesafioProway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioProway.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2ADED112669596100565895 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2ADED132669596100565895 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,8 +46,10 @@
 		C27A6FB526730F74005FE2B9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C2ADED152669596100565895 /* Main.storyboard */,
-				C2ADED132669596100565895 /* ViewController.swift */,
+				C27A6FC2267313AD005FE2B9 /* ReceiptViewController */,
+				C27A6FC1267313A3005FE2B9 /* DetailViewController */,
+				C27A6FBC26731321005FE2B9 /* ListViewController */,
+				C27A6FBB267312DB005FE2B9 /* InitialViewController */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -52,6 +62,40 @@
 				C2ADED1A2669596400565895 /* LaunchScreen.storyboard */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		C27A6FBB267312DB005FE2B9 /* InitialViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C2ADED152669596100565895 /* Main.storyboard */,
+				C2ADED132669596100565895 /* ViewController.swift */,
+			);
+			path = InitialViewController;
+			sourceTree = "<group>";
+		};
+		C27A6FBC26731321005FE2B9 /* ListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C27A6FBD26731385005FE2B9 /* ListViewController.swift */,
+				C27A6FBE26731385005FE2B9 /* ListViewController.xib */,
+			);
+			path = ListViewController;
+			sourceTree = "<group>";
+		};
+		C27A6FC1267313A3005FE2B9 /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C27A6FC326731A58005FE2B9 /* DetailViewController.swift */,
+				C27A6FC426731A58005FE2B9 /* DetailViewController.xib */,
+			);
+			path = DetailViewController;
+			sourceTree = "<group>";
+		};
+		C27A6FC2267313AD005FE2B9 /* ReceiptViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ReceiptViewController;
 			sourceTree = "<group>";
 		};
 		C2ADED052669596100565895 = {
@@ -140,6 +184,8 @@
 			files = (
 				C2ADED1C2669596400565895 /* LaunchScreen.storyboard in Resources */,
 				C2ADED192669596400565895 /* Assets.xcassets in Resources */,
+				C27A6FC626731A58005FE2B9 /* DetailViewController.xib in Resources */,
+				C27A6FC026731385005FE2B9 /* ListViewController.xib in Resources */,
 				C2ADED172669596100565895 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +199,8 @@
 			files = (
 				C2ADED142669596100565895 /* ViewController.swift in Sources */,
 				C2ADED122669596100565895 /* AppDelegate.swift in Sources */,
+				C27A6FBF26731385005FE2B9 /* ListViewController.swift in Sources */,
+				C27A6FC526731A58005FE2B9 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
