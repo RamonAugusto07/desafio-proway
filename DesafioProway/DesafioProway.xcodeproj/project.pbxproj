@@ -35,6 +35,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C27A6FB526730F74005FE2B9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C2ADED152669596100565895 /* Main.storyboard */,
+				C2ADED132669596100565895 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C27A6FB626730F97005FE2B9 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				C2ADED112669596100565895 /* AppDelegate.swift */,
+				C2ADED182669596400565895 /* Assets.xcassets */,
+				C2ADED1A2669596400565895 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 		C2ADED052669596100565895 = {
 			isa = PBXGroup;
 			children = (
@@ -54,11 +73,8 @@
 		C2ADED102669596100565895 /* DesafioProway */ = {
 			isa = PBXGroup;
 			children = (
-				C2ADED112669596100565895 /* AppDelegate.swift */,
-				C2ADED132669596100565895 /* ViewController.swift */,
-				C2ADED152669596100565895 /* Main.storyboard */,
-				C2ADED182669596400565895 /* Assets.xcassets */,
-				C2ADED1A2669596400565895 /* LaunchScreen.storyboard */,
+				C27A6FB526730F74005FE2B9 /* Controller */,
+				C27A6FB626730F97005FE2B9 /* Support */,
 				C2ADED1D2669596400565895 /* Info.plist */,
 			);
 			path = DesafioProway;
