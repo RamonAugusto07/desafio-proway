@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -20,100 +20,159 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dum-By-Vwu">
-                    <rect key="frame" x="140" y="702" width="135" height="82"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
-                    <state key="normal" title="Teste">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="InvertedBackgroundViolet" translatesAutoresizingMaskIntoConstraints="NO" id="SvM-4x-gRA">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QN1-aR-sDt">
+                    <rect key="frame" x="20" y="782" width="374" height="60"/>
+                    <color key="backgroundColor" red="0.65694400379999995" green="0.1357289897" blue="0.52179856769999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="l2X-D3-bRL"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <state key="normal" title="Trocar CPF">
                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </state>
-                    <connections>
-                        <action selector="DetailButton:" destination="-1" eventType="touchUpInside" id="REs-Xc-Pl3"/>
-                    </connections>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                 </button>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h5t-No-ncc">
-                    <rect key="frame" x="514" y="311" width="892" height="170"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <attributedString key="attributedText">
-                        <fragment>
-                            <string key="content">Emprestimo Pessoal com garantia O empréstimo pessoal com garantia tem características semelhantes às do crédito pessoal. No entanto, ele exige a entrega de um bem como garantia de pagamento. 
-
-Explicando melhor: você oferece um apartamento ou um carro, por exemplo. Caso não pague as parcelas, ele será transferido de forma definitiva para o nome da instituição que emprestou o dinheiro.</string>
-                            <attributes>
-                                <font key="NSFont" metaFont="system" size="17"/>
-                            </attributes>
-                        </fragment>
-                    </attributedString>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selecione uma opção abaixo:" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="crG-oq-jIv">
+                    <rect key="frame" x="20" y="64" width="374" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="yKw-gT-Tlt"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="24"/>
+                    <color key="textColor" red="0.13480621579999999" green="0.25519618389999998" blue="0.49561643599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GOJ-UC-eOM">
-                    <rect key="frame" x="25" y="88" width="164" height="34"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                    <state key="normal" title="Emprestimo Pessoal">
-                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </state>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6dc-Ld-spH">
-                    <rect key="frame" x="18" y="163" width="274" height="34"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                    <state key="normal" title="Empréstimo Pessoal com garantia">
-                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </state>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HDg-wU-psF">
-                    <rect key="frame" x="23" y="245" width="198" height="34"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                    <state key="normal" title="Emprestimo Consignado">
-                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </state>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MMx-Si-in3">
-                    <rect key="frame" x="26" y="332" width="168" height="34"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                    <state key="normal" title="Emprestimo Rotativo">
-                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </state>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TNL-xx-AYK">
-                    <rect key="frame" x="29" y="420" width="135" height="34"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                    <state key="normal" title="Cheque Especial">
-                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </state>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vm6-og-aLg">
-                    <rect key="frame" x="23" y="510" width="218" height="34"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                    <state key="normal" title="Refinanciamento de Imovel">
-                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </state>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cdu-Yh-bgO">
-                    <rect key="frame" x="26" y="673" width="150" height="34"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                    <state key="normal" title="Antecipacao do 13">
-                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </state>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLu-da-rOs">
-                    <rect key="frame" x="18" y="591" width="387" height="34"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                    <state key="normal" title="Antecipacao de restituicao do imposto de renda">
-                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </state>
-                </button>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="tQq-Sd-FNi">
+                    <rect key="frame" x="20" y="134" width="374" height="345"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GOJ-UC-eOM">
+                            <rect key="frame" x="0.0" y="0.0" width="374" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="VEb-GS-uxr"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <state key="normal" title="◉ Empréstimo Pessoal">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6dc-Ld-spH">
+                            <rect key="frame" x="0.0" y="45" width="374" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="rH1-2v-R7j"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <state key="normal" title="◉ Empréstimo Pessoal c/ Garantia">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HDg-wU-psF">
+                            <rect key="frame" x="0.0" y="90" width="374" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="Rb5-tK-tRP"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <state key="normal" title="◉ Empréstimo Consignado">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MMx-Si-in3">
+                            <rect key="frame" x="0.0" y="135" width="374" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="cR5-x7-IQE"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <state key="normal" title="◉ Empréstimo Rotativo">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TNL-xx-AYK">
+                            <rect key="frame" x="0.0" y="180" width="374" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="xbC-Pq-0WY"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <state key="normal" title="◉ Cheque Especial">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vm6-og-aLg">
+                            <rect key="frame" x="0.0" y="225" width="374" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="wqz-yU-Xjn"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <state key="normal" title="◉ Refinanciamento de Imóvel">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLu-da-rOs">
+                            <rect key="frame" x="0.0" y="270" width="374" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="My6-kn-fYj"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <state key="normal" title="◉ Antecipação do I.R.">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cdu-Yh-bgO">
+                            <rect key="frame" x="0.0" y="315" width="374" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="0eh-NY-p4z"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <state key="normal" title="◉ Antecipação do 13.º">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="MMx-Si-in3" secondAttribute="trailing" id="4wN-h4-7ac"/>
+                        <constraint firstItem="vm6-og-aLg" firstAttribute="leading" secondItem="tQq-Sd-FNi" secondAttribute="leading" id="7P5-ag-9Qi"/>
+                        <constraint firstAttribute="trailing" secondItem="XLu-da-rOs" secondAttribute="trailing" id="G6l-ot-6K7"/>
+                        <constraint firstItem="6dc-Ld-spH" firstAttribute="leading" secondItem="tQq-Sd-FNi" secondAttribute="leading" id="Haj-co-gYd"/>
+                        <constraint firstAttribute="trailing" secondItem="TNL-xx-AYK" secondAttribute="trailing" id="IUU-za-eAj"/>
+                        <constraint firstAttribute="trailing" secondItem="vm6-og-aLg" secondAttribute="trailing" id="J37-k2-HvK"/>
+                        <constraint firstItem="GOJ-UC-eOM" firstAttribute="leading" secondItem="tQq-Sd-FNi" secondAttribute="leading" id="Kvk-Ly-wiX"/>
+                        <constraint firstItem="Cdu-Yh-bgO" firstAttribute="leading" secondItem="tQq-Sd-FNi" secondAttribute="leading" id="Xju-4y-4gv"/>
+                        <constraint firstItem="TNL-xx-AYK" firstAttribute="leading" secondItem="tQq-Sd-FNi" secondAttribute="leading" id="Yav-GR-ryV"/>
+                        <constraint firstItem="MMx-Si-in3" firstAttribute="leading" secondItem="tQq-Sd-FNi" secondAttribute="leading" id="aAp-7b-uqE"/>
+                        <constraint firstAttribute="trailing" secondItem="GOJ-UC-eOM" secondAttribute="trailing" id="fnQ-cB-cy4"/>
+                        <constraint firstAttribute="trailing" secondItem="HDg-wU-psF" secondAttribute="trailing" id="jDj-UL-TP7"/>
+                        <constraint firstItem="HDg-wU-psF" firstAttribute="leading" secondItem="tQq-Sd-FNi" secondAttribute="leading" id="kUZ-N2-LD4"/>
+                        <constraint firstItem="XLu-da-rOs" firstAttribute="leading" secondItem="tQq-Sd-FNi" secondAttribute="leading" id="nud-hd-il8"/>
+                        <constraint firstAttribute="trailing" secondItem="Cdu-Yh-bgO" secondAttribute="trailing" id="oKb-Ek-7tf"/>
+                        <constraint firstAttribute="trailing" secondItem="6dc-Ld-spH" secondAttribute="trailing" id="qSe-az-399"/>
+                    </constraints>
+                </stackView>
             </subviews>
-            <color key="backgroundColor" red="0.0" green="1" blue="0.021283137548078646" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="SvM-4x-gRA" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="7kk-13-que"/>
+                <constraint firstItem="QN1-aR-sDt" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="GHW-lc-uBq"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="QN1-aR-sDt" secondAttribute="bottom" constant="20" id="HVN-Yb-3HM"/>
+                <constraint firstItem="crG-oq-jIv" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="LFj-Qx-p65"/>
+                <constraint firstItem="tQq-Sd-FNi" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="Npk-qo-C24"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="crG-oq-jIv" secondAttribute="trailing" constant="20" id="PMd-vd-Smu"/>
+                <constraint firstAttribute="bottom" secondItem="SvM-4x-gRA" secondAttribute="bottom" id="PnI-Jd-N3l"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="QN1-aR-sDt" secondAttribute="trailing" constant="20" id="Yps-ce-j3f"/>
+                <constraint firstItem="SvM-4x-gRA" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="dyI-FH-8rV"/>
+                <constraint firstItem="SvM-4x-gRA" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="eUe-9g-uip"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="tQq-Sd-FNi" secondAttribute="trailing" constant="20" id="tzS-LZ-SfS"/>
+                <constraint firstItem="crG-oq-jIv" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="v2D-dF-lfX"/>
+                <constraint firstItem="tQq-Sd-FNi" firstAttribute="top" secondItem="crG-oq-jIv" secondAttribute="bottom" constant="10" id="xyb-9s-dOa"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <point key="canvasLocation" x="57.971014492753625" y="35.491071428571423"/>
+            <point key="canvasLocation" x="56.25" y="34.859154929577464"/>
         </view>
     </objects>
+    <resources>
+        <image name="InvertedBackgroundViolet" width="736" height="1308"/>
+    </resources>
 </document>

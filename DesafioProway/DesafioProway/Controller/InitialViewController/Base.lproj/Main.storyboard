@@ -22,12 +22,12 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Otd-iy-bGa">
-                                <rect key="frame" x="20" y="772" width="374" height="60"/>
+                                <rect key="frame" x="20" y="782" width="374" height="60"/>
                                 <color key="backgroundColor" red="0.22564741969999999" green="0.39585578440000002" blue="0.64090865850000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="9oX-Eh-UrR"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Vamos Lá!">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -37,7 +37,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="StartAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1xM-KP-O1g"/>
+                                    <action selector="startAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UIK-l1-rVD"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CréditoParaTodxs" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uKD-UM-mUY">
@@ -67,6 +67,11 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="continue" enablesReturnKeyAutomatically="YES" textContentType="tel"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="maxLength">
+                                        <integer key="value" value="11"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </textField>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XUk-mP-tru" userLabel="Linha divisória">
                                 <rect key="frame" x="20" y="473" width="374" height="4"/>
@@ -88,7 +93,7 @@
                         <color key="backgroundColor" red="0.71347800304429154" green="0.31731819421558632" blue="0.74581614847715738" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KzS-iy-U8y" secondAttribute="trailing" constant="20" id="4vn-my-Bdd"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Otd-iy-bGa" secondAttribute="bottom" constant="30" id="72y-a3-6QD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Otd-iy-bGa" secondAttribute="bottom" constant="20" id="72y-a3-6QD"/>
                             <constraint firstItem="xPa-pB-x8f" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="8U2-h4-HyI"/>
                             <constraint firstItem="xPa-pB-x8f" firstAttribute="top" secondItem="uKD-UM-mUY" secondAttribute="bottom" constant="10" id="9J9-Nn-vuT"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xPa-pB-x8f" secondAttribute="trailing" constant="20" id="EVB-P6-Zee"/>
@@ -113,7 +118,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="StartOutlet" destination="Otd-iy-bGa" id="VRv-7Y-2vK"/>
+                        <outlet property="cpfAlertLabel" destination="KzS-iy-U8y" id="eRD-VT-aMV"/>
+                        <outlet property="startOutlet" destination="Otd-iy-bGa" id="c0h-TW-OSk"/>
+                        <outlet property="textCpf" destination="KDE-Zk-ad8" id="NOU-BW-cVn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
