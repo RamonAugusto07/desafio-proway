@@ -12,6 +12,14 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ListViewController" customModule="DesafioProway" customModuleProvider="target">
             <connections>
+                <outlet property="incomeSalaryButton" destination="Cdu-Yh-bgO" id="ygf-0w-wg0"/>
+                <outlet property="incomeTaxButton" destination="XLu-da-rOs" id="cAh-MN-wDf"/>
+                <outlet property="overdraftButton" destination="TNL-xx-AYK" id="x4w-9b-WhE"/>
+                <outlet property="payrollLoanButton" destination="HDg-wU-psF" id="WtP-Yi-5Gx"/>
+                <outlet property="personalLoanButton" destination="GOJ-UC-eOM" id="QhS-eY-Z7M"/>
+                <outlet property="personalLoanGuarantyButton" destination="6dc-Ld-spH" id="MOq-6i-3p7"/>
+                <outlet property="propertyFinancingButton" destination="vm6-og-aLg" id="4Ba-9i-uBD"/>
+                <outlet property="rotativeLoanButton" destination="MMx-Si-in3" id="uVI-sg-brU"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -38,6 +46,9 @@
                             <integer key="value" value="5"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="changeButton:" destination="-1" eventType="touchUpInside" id="kFX-Up-PVU"/>
+                    </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selecione uma opção abaixo:" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="crG-oq-jIv">
                     <rect key="frame" x="20" y="64" width="374" height="60"/>
@@ -60,6 +71,9 @@
                             <state key="normal" title="◉ Empréstimo Pessoal">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
+                            <connections>
+                                <action selector="loanDetailButton:" destination="-1" eventType="touchUpInside" id="2eZ-LY-efb"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6dc-Ld-spH">
                             <rect key="frame" x="0.0" y="45" width="374" height="30"/>
@@ -70,6 +84,9 @@
                             <state key="normal" title="◉ Empréstimo Pessoal c/ Garantia">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
+                            <connections>
+                                <action selector="loanDetailButton:" destination="-1" eventType="touchUpInside" id="5Vv-2c-aOe"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HDg-wU-psF">
                             <rect key="frame" x="0.0" y="90" width="374" height="30"/>
@@ -80,6 +97,9 @@
                             <state key="normal" title="◉ Empréstimo Consignado">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
+                            <connections>
+                                <action selector="loanDetailButton:" destination="-1" eventType="touchUpInside" id="8QK-Os-Hot"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MMx-Si-in3">
                             <rect key="frame" x="0.0" y="135" width="374" height="30"/>
@@ -90,6 +110,9 @@
                             <state key="normal" title="◉ Empréstimo Rotativo">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
+                            <connections>
+                                <action selector="loanDetailButton:" destination="-1" eventType="touchUpInside" id="MZ2-bz-ErE"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TNL-xx-AYK">
                             <rect key="frame" x="0.0" y="180" width="374" height="30"/>
@@ -100,6 +123,9 @@
                             <state key="normal" title="◉ Cheque Especial">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
+                            <connections>
+                                <action selector="loanDetailButton:" destination="-1" eventType="touchUpInside" id="YUt-Kf-hMo"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vm6-og-aLg">
                             <rect key="frame" x="0.0" y="225" width="374" height="30"/>
@@ -110,6 +136,9 @@
                             <state key="normal" title="◉ Refinanciamento de Imóvel">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
+                            <connections>
+                                <action selector="loanDetailButton:" destination="-1" eventType="touchUpInside" id="spx-Ar-Ji5"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLu-da-rOs">
                             <rect key="frame" x="0.0" y="270" width="374" height="30"/>
@@ -120,6 +149,9 @@
                             <state key="normal" title="◉ Antecipação do I.R.">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
+                            <connections>
+                                <action selector="loanDetailButton:" destination="-1" eventType="touchUpInside" id="wKi-fs-hSp"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cdu-Yh-bgO">
                             <rect key="frame" x="0.0" y="315" width="374" height="30"/>
@@ -130,6 +162,9 @@
                             <state key="normal" title="◉ Antecipação do 13.º">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
+                            <connections>
+                                <action selector="loanDetailButton:" destination="-1" eventType="touchUpInside" id="qhl-Qo-Qpm"/>
+                            </connections>
                         </button>
                     </subviews>
                     <constraints>

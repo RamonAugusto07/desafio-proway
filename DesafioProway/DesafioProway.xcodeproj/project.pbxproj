@@ -9,36 +9,19 @@
 /* Begin PBXBuildFile section */
 		C27A6FBF26731385005FE2B9 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A6FBD26731385005FE2B9 /* ListViewController.swift */; };
 		C27A6FC026731385005FE2B9 /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C27A6FBE26731385005FE2B9 /* ListViewController.xib */; };
-		C27A6FC526731A58005FE2B9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A6FC326731A58005FE2B9 /* DetailViewController.swift */; };
-		C27A6FC626731A58005FE2B9 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C27A6FC426731A58005FE2B9 /* DetailViewController.xib */; };
 		C2ADED122669596100565895 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ADED112669596100565895 /* AppDelegate.swift */; };
 		C2ADED142669596100565895 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ADED132669596100565895 /* ViewController.swift */; };
 		C2ADED172669596100565895 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2ADED152669596100565895 /* Main.storyboard */; };
 		C2ADED192669596400565895 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2ADED182669596400565895 /* Assets.xcassets */; };
 		C2ADED1C2669596400565895 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2ADED1A2669596400565895 /* LaunchScreen.storyboard */; };
-		C2DAE8F3267CE29900BC49DA /* EmprestimoPessoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DAE8F1267CE29900BC49DA /* EmprestimoPessoalViewController.swift */; };
-		C2DAE8F4267CE29900BC49DA /* EmprestimoPessoalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2DAE8F2267CE29900BC49DA /* EmprestimoPessoalViewController.xib */; };
-		C2DAE8FE267CE60A00BC49DA /* EmprestimoGarantiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DAE8FC267CE60A00BC49DA /* EmprestimoGarantiaViewController.swift */; };
-		C2DAE8FF267CE60A00BC49DA /* EmprestimoGarantiaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2DAE8FD267CE60A00BC49DA /* EmprestimoGarantiaViewController.xib */; };
-		C2DAE902267CE63400BC49DA /* ConsignadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DAE900267CE63400BC49DA /* ConsignadoViewController.swift */; };
-		C2DAE903267CE63400BC49DA /* ConsignadoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2DAE901267CE63400BC49DA /* ConsignadoViewController.xib */; };
-		C2DAE906267CE74600BC49DA /* RotativoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DAE904267CE74600BC49DA /* RotativoViewController.swift */; };
-		C2DAE907267CE74600BC49DA /* RotativoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2DAE905267CE74600BC49DA /* RotativoViewController.xib */; };
-		C2DAE90A267CE80000BC49DA /* ChequeEspecialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DAE908267CE80000BC49DA /* ChequeEspecialViewController.swift */; };
-		C2DAE90B267CE80000BC49DA /* ChequeEspecialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2DAE909267CE80000BC49DA /* ChequeEspecialViewController.xib */; };
-		C2DAE90E267CE82100BC49DA /* RefinanciamentoImovelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DAE90C267CE82100BC49DA /* RefinanciamentoImovelViewController.swift */; };
-		C2DAE90F267CE82100BC49DA /* RefinanciamentoImovelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2DAE90D267CE82100BC49DA /* RefinanciamentoImovelViewController.xib */; };
-		C2DAE912267CE83A00BC49DA /* ImpostoDeRendaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DAE910267CE83A00BC49DA /* ImpostoDeRendaViewController.swift */; };
-		C2DAE913267CE83A00BC49DA /* ImpostoDeRendaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2DAE911267CE83A00BC49DA /* ImpostoDeRendaViewController.xib */; };
-		C2DAE916267CE85B00BC49DA /* DecimoTerceiroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DAE914267CE85B00BC49DA /* DecimoTerceiroViewController.swift */; };
-		C2DAE917267CE85B00BC49DA /* DecimoTerceiroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2DAE915267CE85B00BC49DA /* DecimoTerceiroViewController.xib */; };
+		C2DAE91E267EA69400BC49DA /* DescriptionOfLoans.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DAE91D267EA69400BC49DA /* DescriptionOfLoans.swift */; };
+		C2DAE921267EAABF00BC49DA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DAE91F267EAABF00BC49DA /* DetailViewController.swift */; };
+		C2DAE922267EAABF00BC49DA /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2DAE920267EAABF00BC49DA /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C27A6FBD26731385005FE2B9 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		C27A6FBE26731385005FE2B9 /* ListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
-		C27A6FC326731A58005FE2B9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		C27A6FC426731A58005FE2B9 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		C2ADED0E2669596100565895 /* DesafioProway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioProway.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2ADED112669596100565895 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2ADED132669596100565895 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,22 +29,9 @@
 		C2ADED182669596400565895 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2ADED1B2669596400565895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2ADED1D2669596400565895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C2DAE8F1267CE29900BC49DA /* EmprestimoPessoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmprestimoPessoalViewController.swift; sourceTree = "<group>"; };
-		C2DAE8F2267CE29900BC49DA /* EmprestimoPessoalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmprestimoPessoalViewController.xib; sourceTree = "<group>"; };
-		C2DAE8FC267CE60A00BC49DA /* EmprestimoGarantiaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmprestimoGarantiaViewController.swift; sourceTree = "<group>"; };
-		C2DAE8FD267CE60A00BC49DA /* EmprestimoGarantiaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmprestimoGarantiaViewController.xib; sourceTree = "<group>"; };
-		C2DAE900267CE63400BC49DA /* ConsignadoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsignadoViewController.swift; sourceTree = "<group>"; };
-		C2DAE901267CE63400BC49DA /* ConsignadoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConsignadoViewController.xib; sourceTree = "<group>"; };
-		C2DAE904267CE74600BC49DA /* RotativoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotativoViewController.swift; sourceTree = "<group>"; };
-		C2DAE905267CE74600BC49DA /* RotativoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RotativoViewController.xib; sourceTree = "<group>"; };
-		C2DAE908267CE80000BC49DA /* ChequeEspecialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChequeEspecialViewController.swift; sourceTree = "<group>"; };
-		C2DAE909267CE80000BC49DA /* ChequeEspecialViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChequeEspecialViewController.xib; sourceTree = "<group>"; };
-		C2DAE90C267CE82100BC49DA /* RefinanciamentoImovelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefinanciamentoImovelViewController.swift; sourceTree = "<group>"; };
-		C2DAE90D267CE82100BC49DA /* RefinanciamentoImovelViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RefinanciamentoImovelViewController.xib; sourceTree = "<group>"; };
-		C2DAE910267CE83A00BC49DA /* ImpostoDeRendaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpostoDeRendaViewController.swift; sourceTree = "<group>"; };
-		C2DAE911267CE83A00BC49DA /* ImpostoDeRendaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImpostoDeRendaViewController.xib; sourceTree = "<group>"; };
-		C2DAE914267CE85B00BC49DA /* DecimoTerceiroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimoTerceiroViewController.swift; sourceTree = "<group>"; };
-		C2DAE915267CE85B00BC49DA /* DecimoTerceiroViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DecimoTerceiroViewController.xib; sourceTree = "<group>"; };
+		C2DAE91D267EA69400BC49DA /* DescriptionOfLoans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionOfLoans.swift; sourceTree = "<group>"; };
+		C2DAE91F267EAABF00BC49DA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C2DAE920267EAABF00BC49DA /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +51,6 @@
 				C27A6FBB267312DB005FE2B9 /* InitialViewController */,
 				C27A6FBC26731321005FE2B9 /* ListViewController */,
 				C27A6FC1267313A3005FE2B9 /* DetailViewController */,
-				C2DAE918267E5FEA00BC49DA /* Loans */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -108,6 +77,7 @@
 		C27A6FBC26731321005FE2B9 /* ListViewController */ = {
 			isa = PBXGroup;
 			children = (
+				C2DAE91D267EA69400BC49DA /* DescriptionOfLoans.swift */,
 				C27A6FBD26731385005FE2B9 /* ListViewController.swift */,
 				C27A6FBE26731385005FE2B9 /* ListViewController.xib */,
 			);
@@ -117,17 +87,10 @@
 		C27A6FC1267313A3005FE2B9 /* DetailViewController */ = {
 			isa = PBXGroup;
 			children = (
-				C27A6FC326731A58005FE2B9 /* DetailViewController.swift */,
-				C27A6FC426731A58005FE2B9 /* DetailViewController.xib */,
+				C2DAE91F267EAABF00BC49DA /* DetailViewController.swift */,
+				C2DAE920267EAABF00BC49DA /* DetailViewController.xib */,
 			);
 			path = DetailViewController;
-			sourceTree = "<group>";
-		};
-		C27A6FC2267313AD005FE2B9 /* ReceiptViewController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ReceiptViewController;
 			sourceTree = "<group>";
 		};
 		C2ADED052669596100565895 = {
@@ -154,94 +117,6 @@
 				C2ADED1D2669596400565895 /* Info.plist */,
 			);
 			path = DesafioProway;
-			sourceTree = "<group>";
-		};
-		C2DAE8EE267CE10200BC49DA /* EmprestimoPessoal */ = {
-			isa = PBXGroup;
-			children = (
-				C2DAE8F1267CE29900BC49DA /* EmprestimoPessoalViewController.swift */,
-				C2DAE8F2267CE29900BC49DA /* EmprestimoPessoalViewController.xib */,
-			);
-			path = EmprestimoPessoal;
-			sourceTree = "<group>";
-		};
-		C2DAE8F5267CE46C00BC49DA /* EmprestimoGarantia */ = {
-			isa = PBXGroup;
-			children = (
-				C2DAE8FC267CE60A00BC49DA /* EmprestimoGarantiaViewController.swift */,
-				C2DAE8FD267CE60A00BC49DA /* EmprestimoGarantiaViewController.xib */,
-			);
-			path = EmprestimoGarantia;
-			sourceTree = "<group>";
-		};
-		C2DAE8F6267CE47F00BC49DA /* Consignado */ = {
-			isa = PBXGroup;
-			children = (
-				C2DAE900267CE63400BC49DA /* ConsignadoViewController.swift */,
-				C2DAE901267CE63400BC49DA /* ConsignadoViewController.xib */,
-			);
-			path = Consignado;
-			sourceTree = "<group>";
-		};
-		C2DAE8F7267CE49000BC49DA /* Rotativo */ = {
-			isa = PBXGroup;
-			children = (
-				C2DAE904267CE74600BC49DA /* RotativoViewController.swift */,
-				C2DAE905267CE74600BC49DA /* RotativoViewController.xib */,
-			);
-			path = Rotativo;
-			sourceTree = "<group>";
-		};
-		C2DAE8F8267CE49B00BC49DA /* ChequeEspecial */ = {
-			isa = PBXGroup;
-			children = (
-				C2DAE908267CE80000BC49DA /* ChequeEspecialViewController.swift */,
-				C2DAE909267CE80000BC49DA /* ChequeEspecialViewController.xib */,
-			);
-			path = ChequeEspecial;
-			sourceTree = "<group>";
-		};
-		C2DAE8F9267CE4A800BC49DA /* RefinanciamentoImovel */ = {
-			isa = PBXGroup;
-			children = (
-				C2DAE90C267CE82100BC49DA /* RefinanciamentoImovelViewController.swift */,
-				C2DAE90D267CE82100BC49DA /* RefinanciamentoImovelViewController.xib */,
-			);
-			path = RefinanciamentoImovel;
-			sourceTree = "<group>";
-		};
-		C2DAE8FA267CE4BD00BC49DA /* ImpostoDeRenda */ = {
-			isa = PBXGroup;
-			children = (
-				C2DAE910267CE83A00BC49DA /* ImpostoDeRendaViewController.swift */,
-				C2DAE911267CE83A00BC49DA /* ImpostoDeRendaViewController.xib */,
-			);
-			path = ImpostoDeRenda;
-			sourceTree = "<group>";
-		};
-		C2DAE8FB267CE4D300BC49DA /* DecimoTerceiro */ = {
-			isa = PBXGroup;
-			children = (
-				C2DAE914267CE85B00BC49DA /* DecimoTerceiroViewController.swift */,
-				C2DAE915267CE85B00BC49DA /* DecimoTerceiroViewController.xib */,
-			);
-			path = DecimoTerceiro;
-			sourceTree = "<group>";
-		};
-		C2DAE918267E5FEA00BC49DA /* Loans */ = {
-			isa = PBXGroup;
-			children = (
-				C2DAE8F7267CE49000BC49DA /* Rotativo */,
-				C2DAE8F9267CE4A800BC49DA /* RefinanciamentoImovel */,
-				C2DAE8F6267CE47F00BC49DA /* Consignado */,
-				C2DAE8FA267CE4BD00BC49DA /* ImpostoDeRenda */,
-				C2DAE8F8267CE49B00BC49DA /* ChequeEspecial */,
-				C2DAE8F5267CE46C00BC49DA /* EmprestimoGarantia */,
-				C27A6FC2267313AD005FE2B9 /* ReceiptViewController */,
-				C2DAE8EE267CE10200BC49DA /* EmprestimoPessoal */,
-				C2DAE8FB267CE4D300BC49DA /* DecimoTerceiro */,
-			);
-			path = Loans;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,19 +177,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2DAE907267CE74600BC49DA /* RotativoViewController.xib in Resources */,
-				C2DAE8FF267CE60A00BC49DA /* EmprestimoGarantiaViewController.xib in Resources */,
-				C2DAE90B267CE80000BC49DA /* ChequeEspecialViewController.xib in Resources */,
-				C2DAE90F267CE82100BC49DA /* RefinanciamentoImovelViewController.xib in Resources */,
-				C2DAE903267CE63400BC49DA /* ConsignadoViewController.xib in Resources */,
-				C2DAE917267CE85B00BC49DA /* DecimoTerceiroViewController.xib in Resources */,
 				C2ADED1C2669596400565895 /* LaunchScreen.storyboard in Resources */,
 				C2ADED192669596400565895 /* Assets.xcassets in Resources */,
-				C27A6FC626731A58005FE2B9 /* DetailViewController.xib in Resources */,
-				C2DAE913267CE83A00BC49DA /* ImpostoDeRendaViewController.xib in Resources */,
+				C2DAE922267EAABF00BC49DA /* DetailViewController.xib in Resources */,
 				C27A6FC026731385005FE2B9 /* ListViewController.xib in Resources */,
 				C2ADED172669596100565895 /* Main.storyboard in Resources */,
-				C2DAE8F4267CE29900BC49DA /* EmprestimoPessoalViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,18 +192,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2DAE8FE267CE60A00BC49DA /* EmprestimoGarantiaViewController.swift in Sources */,
 				C2ADED142669596100565895 /* ViewController.swift in Sources */,
-				C2DAE90A267CE80000BC49DA /* ChequeEspecialViewController.swift in Sources */,
-				C2DAE8F3267CE29900BC49DA /* EmprestimoPessoalViewController.swift in Sources */,
-				C2DAE90E267CE82100BC49DA /* RefinanciamentoImovelViewController.swift in Sources */,
 				C2ADED122669596100565895 /* AppDelegate.swift in Sources */,
+				C2DAE921267EAABF00BC49DA /* DetailViewController.swift in Sources */,
 				C27A6FBF26731385005FE2B9 /* ListViewController.swift in Sources */,
-				C2DAE912267CE83A00BC49DA /* ImpostoDeRendaViewController.swift in Sources */,
-				C27A6FC526731A58005FE2B9 /* DetailViewController.swift in Sources */,
-				C2DAE906267CE74600BC49DA /* RotativoViewController.swift in Sources */,
-				C2DAE916267CE85B00BC49DA /* DecimoTerceiroViewController.swift in Sources */,
-				C2DAE902267CE63400BC49DA /* ConsignadoViewController.swift in Sources */,
+				C2DAE91E267EA69400BC49DA /* DescriptionOfLoans.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

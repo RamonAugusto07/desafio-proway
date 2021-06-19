@@ -2,13 +2,13 @@
 //  DetailViewController.swift
 //  DesafioProway
 //
-//  Created by Caio Berkley on 11/06/21.
+//  Created by Caio Berkley on 19/06/21.
 //  Copyright © 2021 Ramon Augusto. All rights reserved.
 //
 
 import UIKit
 
-class DetailViewController: UIViewController {
+class DetailViewController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
