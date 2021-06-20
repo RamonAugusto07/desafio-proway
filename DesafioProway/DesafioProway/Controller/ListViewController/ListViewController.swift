@@ -33,7 +33,6 @@ class ListViewController: UIViewController {
         case personalLoanButton:
             
             let NextView = DetailViewController()
-
             self.present(NextView, animated: true, completion: nil)
             
             NextView.titleLabel.text = "Empréstimo Pessoal"
@@ -47,60 +46,53 @@ class ListViewController: UIViewController {
             NextView.titleLabel.text = "Empréstimo Pessoal com Garantia"
             NextView.descriptionLabel.text = loanListDescription.personalLoanGuarantyDescription
             
-            
         case payrollLoanButton:
+            
             let NextView = DetailViewController()
             self.present(NextView, animated: true, completion: nil)
             
             NextView.titleLabel.text = "Empréstimo Consignado"
             NextView.descriptionLabel.text = loanListDescription.payrollLoanDescription
             
-            
-            
-            
         case rotativeLoanButton:
+            
             let NextView = DetailViewController()
             self.present(NextView, animated: true, completion: nil)
-        
+            
             NextView.titleLabel.text = "Empréstimo Rotativo"
             NextView.descriptionLabel.text = loanListDescription.rotativeLoanDescription
             
-            
-            
         case overdraftButton:
+            
             let NextView = DetailViewController()
             self.present(NextView, animated: true, completion: nil)
-            
             
             NextView.titleLabel.text = "Empréstimo com Cheque Especial"
             NextView.descriptionLabel.text = loanListDescription.overdraftDescription
             
-            
         case propertyFinancingButton:
+            
             let NextView = DetailViewController()
             self.present(NextView, animated: true, completion: nil)
             
             NextView.titleLabel.text = "Refinanciamento de Imóvel"
             NextView.descriptionLabel.text = loanListDescription.propertyFinancingDescription
             
-            
         case incomeTaxButton:
+            
             let NextView = DetailViewController()
             self.present(NextView, animated: true, completion: nil)
-            
             
             NextView.titleLabel.text = "Antecipação do I.R."
             NextView.descriptionLabel.text = loanListDescription.incomeTaxDescription
             
-            
         case incomeSalaryButton:
+            
             let NextView = DetailViewController()
             self.present(NextView, animated: true, completion: nil)
             
-            
             NextView.titleLabel.text = "Antecipação do 13"
             NextView.descriptionLabel.text = loanListDescription.incomeSalaryDescription
-            
             
         default:
             return

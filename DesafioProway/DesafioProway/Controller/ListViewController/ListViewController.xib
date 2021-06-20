@@ -37,7 +37,7 @@
                     <constraints>
                         <constraint firstAttribute="height" constant="60" id="l2X-D3-bRL"/>
                     </constraints>
-                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
                     <state key="normal" title="Trocar CPF">
                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </state>
@@ -55,7 +55,7 @@
                     <constraints>
                         <constraint firstAttribute="height" constant="60" id="yKw-gT-Tlt"/>
                     </constraints>
-                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="24"/>
+                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
                     <color key="textColor" red="0.13480621579999999" green="0.25519618389999998" blue="0.49561643599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
