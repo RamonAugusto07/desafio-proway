@@ -19,6 +19,8 @@ class ListViewController: UIViewController {
     @IBOutlet weak var incomeTaxButton: UIButton!
     @IBOutlet weak var incomeSalaryButton: UIButton!
     
+    let loanListDescription = DescriptionOfLoans()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -31,22 +33,74 @@ class ListViewController: UIViewController {
         case personalLoanButton:
             
             let NextView = DetailViewController()
+
             self.present(NextView, animated: true, completion: nil)
             
+            NextView.titleLabel.text = "Empréstimo Pessoal"
+            NextView.descriptionLabel.text = loanListDescription.personalLoanDescription
+            
         case personalLoanGuarantyButton:
-            return
+            
+            let NextView = DetailViewController()
+            self.present(NextView, animated: true, completion: nil)
+            
+            NextView.titleLabel.text = "Empréstimo Pessoal com Garantia"
+            NextView.descriptionLabel.text = loanListDescription.personalLoanGuarantyDescription
+            
+            
         case payrollLoanButton:
-            return
+            let NextView = DetailViewController()
+            self.present(NextView, animated: true, completion: nil)
+            
+            NextView.titleLabel.text = "Empréstimo Consignado"
+            NextView.descriptionLabel.text = loanListDescription.payrollLoanDescription
+            
+            
+            
+            
         case rotativeLoanButton:
-            return
+            let NextView = DetailViewController()
+            self.present(NextView, animated: true, completion: nil)
+        
+            NextView.titleLabel.text = "Empréstimo Rotativo"
+            NextView.descriptionLabel.text = loanListDescription.rotativeLoanDescription
+            
+            
+            
         case overdraftButton:
-            return
+            let NextView = DetailViewController()
+            self.present(NextView, animated: true, completion: nil)
+            
+            
+            NextView.titleLabel.text = "Empréstimo com Cheque Especial"
+            NextView.descriptionLabel.text = loanListDescription.overdraftDescription
+            
+            
         case propertyFinancingButton:
-            return
+            let NextView = DetailViewController()
+            self.present(NextView, animated: true, completion: nil)
+            
+            NextView.titleLabel.text = "Refinanciamento de Imóvel"
+            NextView.descriptionLabel.text = loanListDescription.propertyFinancingDescription
+            
+            
         case incomeTaxButton:
-            return
+            let NextView = DetailViewController()
+            self.present(NextView, animated: true, completion: nil)
+            
+            
+            NextView.titleLabel.text = "Antecipação do I.R."
+            NextView.descriptionLabel.text = loanListDescription.incomeTaxDescription
+            
+            
         case incomeSalaryButton:
-            return
+            let NextView = DetailViewController()
+            self.present(NextView, animated: true, completion: nil)
+            
+            
+            NextView.titleLabel.text = "Antecipação do 13"
+            NextView.descriptionLabel.text = loanListDescription.incomeSalaryDescription
+            
             
         default:
             return
