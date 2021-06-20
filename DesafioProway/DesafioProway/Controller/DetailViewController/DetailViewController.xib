@@ -12,6 +12,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController" customModule="DesafioProway" customModuleProvider="target">
             <connections>
+                <outlet property="descriptionLabel" destination="8Pw-nX-Xgc" id="plK-MS-ciL"/>
+                <outlet property="titleLabel" destination="Qan-On-Z5O" id="GFh-7o-rWr"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -23,16 +25,85 @@
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="InvertedBackgroundViolet" translatesAutoresizingMaskIntoConstraints="NO" id="GCc-pQ-xcI">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                 </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Empréstimo Rotativo" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qan-On-Z5O">
+                    <rect key="frame" x="25" y="64" width="364" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="B4A-xS-LEX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                    <color key="textColor" red="0.13480621579999999" green="0.25519618389999998" blue="0.49561643599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aoE-Rz-xVY">
+                    <rect key="frame" x="20" y="786" width="374" height="40"/>
+                    <color key="backgroundColor" red="0.65694400379999995" green="0.1357289897" blue="0.52179856769999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="HVh-TL-atS"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <state key="normal" title="Contatar Corretor">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="contactBroker:" destination="-1" eventType="touchUpInside" id="3hb-Mq-O5H"/>
+                    </connections>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Pw-nX-Xgc">
+                    <rect key="frame" x="20" y="104" width="374" height="672"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <mutableString key="text">O empréstimo rotativo é conhecido de muitas pessoas que usam o cartão de crédito. Ele funciona como um financiamento da fatura e é contratado de forma automática quando o cliente não faz o pagamento total. Em resumo, o banco cobre o valor que fica faltando, mas esse empréstimo gera altos juros nos meses seguintes. Apesar de evitar que seu nome seja inscrito de imediato em serviços de proteção ao crédito, é importante ficar atento. Do contrário, você pode perder o controle da dívida e prejudicar suas finanças pessoais.</mutableString>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6cl-3a-gvV">
+                    <rect key="frame" x="20" y="836" width="374" height="40"/>
+                    <color key="backgroundColor" red="0.13480621579999999" green="0.25519618389999998" blue="0.49561643599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Q9c-v1-9k1"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="UWZ-Nx-kcs"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <state key="normal" title="Retornar">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="dismissView:" destination="-1" eventType="touchUpInside" id="Msn-Ze-wjn"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="8Pw-nX-Xgc" secondAttribute="trailing" constant="20" id="2t8-be-X2j"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Qan-On-Z5O" secondAttribute="trailing" constant="25" id="45V-yD-bvq"/>
+                <constraint firstItem="aoE-Rz-xVY" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="8By-vC-LVC"/>
+                <constraint firstItem="8Pw-nX-Xgc" firstAttribute="top" secondItem="Qan-On-Z5O" secondAttribute="bottom" constant="10" id="Fth-nz-03j"/>
+                <constraint firstItem="6cl-3a-gvV" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="JQf-rg-P2y"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="aoE-Rz-xVY" secondAttribute="trailing" constant="20" id="Qfc-Xm-FzR"/>
                 <constraint firstItem="GCc-pQ-xcI" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="WD5-xC-7VT"/>
+                <constraint firstItem="Qan-On-Z5O" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="25" id="Ypl-K1-sB3"/>
                 <constraint firstItem="GCc-pQ-xcI" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="a0w-yU-x9o"/>
+                <constraint firstItem="6cl-3a-gvV" firstAttribute="top" secondItem="aoE-Rz-xVY" secondAttribute="bottom" constant="10" id="aXD-Ml-KrK"/>
+                <constraint firstAttribute="bottom" secondItem="6cl-3a-gvV" secondAttribute="bottom" constant="20" id="agG-L2-4Dg"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="6cl-3a-gvV" secondAttribute="trailing" constant="20" id="cjw-Ln-n1V"/>
+                <constraint firstItem="aoE-Rz-xVY" firstAttribute="top" secondItem="8Pw-nX-Xgc" secondAttribute="bottom" constant="10" id="gCE-EN-XCV"/>
                 <constraint firstItem="GCc-pQ-xcI" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="hNB-2B-Zb3"/>
+                <constraint firstItem="8Pw-nX-Xgc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="nAv-NX-pYD"/>
                 <constraint firstAttribute="bottom" secondItem="GCc-pQ-xcI" secondAttribute="bottom" id="sxE-C9-pyQ"/>
+                <constraint firstItem="Qan-On-Z5O" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="uoa-oS-w7y"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <point key="canvasLocation" x="140.57971014492756" y="144.64285714285714"/>
+            <point key="canvasLocation" x="138.75" y="143.66197183098592"/>
         </view>
     </objects>
     <resources>

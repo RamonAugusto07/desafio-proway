@@ -23,7 +23,7 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Otd-iy-bGa">
                                 <rect key="frame" x="20" y="782" width="374" height="60"/>
-                                <color key="backgroundColor" red="0.22564741969999999" green="0.39585578440000002" blue="0.64090865850000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.34951317310000002" green="0.68139713999999996" blue="0.98855549099999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="9oX-Eh-UrR"/>
                                 </constraints>
@@ -33,7 +33,7 @@
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
+                                        <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
@@ -90,7 +90,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.71347800304429154" green="0.31731819421558632" blue="0.74581614847715738" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KzS-iy-U8y" secondAttribute="trailing" constant="20" id="4vn-my-Bdd"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Otd-iy-bGa" secondAttribute="bottom" constant="20" id="72y-a3-6QD"/>

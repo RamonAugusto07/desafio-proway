@@ -33,7 +33,7 @@
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QN1-aR-sDt">
                     <rect key="frame" x="20" y="782" width="374" height="60"/>
-                    <color key="backgroundColor" red="0.65694400379999995" green="0.1357289897" blue="0.52179856769999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" red="0.71641802789999998" green="0.34468090530000001" blue="0.63502913709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="60" id="l2X-D3-bRL"/>
                     </constraints>
@@ -43,7 +43,7 @@
                     </state>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                            <integer key="value" value="5"/>
+                            <integer key="value" value="8"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                     <connections>

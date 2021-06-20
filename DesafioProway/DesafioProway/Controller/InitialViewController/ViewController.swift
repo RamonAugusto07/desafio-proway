@@ -10,7 +10,6 @@ import UIKit
 
 class InitialViewController: UIViewController {
     
-    //MARK: Outlets
     @IBOutlet weak var startOutlet: UIButton!
     @IBOutlet weak var textCpf: UITextField!
     @IBOutlet weak var cpfAlertLabel: UILabel!
@@ -18,6 +17,14 @@ class InitialViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let tap = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
+        
+        view.addGestureRecognizer(tap)
+    }
+    
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
+        verifyCpf()
     }
     
     func verifyCpf() {
@@ -26,16 +33,16 @@ class InitialViewController: UIViewController {
             
         } else {
             self.cpfAlertLabel.isHidden = true
-            
-            let nextView = ListViewController()
-            self.present(nextView, animated: true, completion: nil)
-            
+    
         }
     }
-    
-    //MARK: Action
+
     @IBAction func startAction(_ sender: UIButton) {
-        verifyCpf()
+        
+        guard textCpf.text?.isEmpty == false else { verifyCpf(); return }
+        
+        let nextView = ListViewController()
+        self.present(nextView, animated: true, completion: nil)
         
     }
 }

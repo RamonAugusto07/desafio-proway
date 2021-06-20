@@ -24,14 +24,15 @@ class ListViewController: UIViewController {
         
     }
     
-    
-    
     @IBAction func loanDetailButton(_ sender: UIButton) {
         
         switch sender {
             
         case personalLoanButton:
-            return
+            
+            let NextView = DetailViewController()
+            self.present(NextView, animated: true, completion: nil)
+            
         case personalLoanGuarantyButton:
             return
         case payrollLoanButton:
@@ -51,14 +52,9 @@ class ListViewController: UIViewController {
             return
             
         }
-        
-        //    let nextView = DetailViewController()
-        //    self.navigationController?.pushViewController(nextView, animated: true)
-        
     }
     
     @IBAction func changeButton(_ sender: Any) {
-        
         navigationController?.popViewController(animated: true)
         dismiss(animated: true, completion: nil)
         
